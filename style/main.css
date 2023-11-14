@@ -1,0 +1,10 @@
+body{
+    background-color: #8ceaff;
+    background-image: url("../Images/background.png");
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: 50%;
+}
+.titleText{
+    color: red;
+}
