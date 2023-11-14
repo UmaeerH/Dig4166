@@ -8,6 +8,15 @@ body {
     background-size: 50%;
 }
 
+h1, h2, h3{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 200;
+}
+
 .container {
     min-height: 100vh;
     box-sizing: border-box;
@@ -29,27 +38,89 @@ body {
     font-weight: bolder;
     position: absolute;
     left: 20%;
+    font-size: clamp(2rem, 6vw, 4rem);
+    align-self: center;
 }
 
 .logoImage {
-    max-height: 15%;
-    max-width: 18.75%;
+    max-height: 10vw;
     aspect-ratio: 1/0.8;
-    position: fixed;
-    left: 0%;
-    top: 0%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
-.darkBubble {
+.darkBubbleLeft {
     background: linear-gradient(107deg, #001251 48%, #0129B8 100%);
+    max-width: 90%;
+    padding: 1%;
+    border-top-left-radius: 5vh;
+    border-top-right-radius: 5vh;
+    border-bottom-right-radius: 13vh;
+    border-bottom-left-radius: 5vh;
+    margin-top: 20vh;
+    margin-left: 2vh;
+    position: relative;
+}
+
+#img1{
+    max-width: 20vh;
+    position: absolute;
+}
+
+
+#content1{
+    text-align:left;
+    margin-left: 25%;
+    padding-left: 2%;
+}
+
+#content2{
+    color: #000B32;
+    text-align: left;
+    max-width: 25%;
+    margin-left: 2vw;
+    margin-top: 5vh;
+    border-radius: 5vh;
+    position: absolute;
+    font-size: clamp(1%, 2vw, 2rem);
+}
+
+#content3img{
     max-width: 40%;
-    margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 8vh;
+    margin-left: 25vw;
+    border-radius: 2vh;
+    size-adjust: fit-content;
+    position: absolute;
+}
+
+#content3{
+    color: #000B32;
+    text-align: right;
+    max-width: 25%;
+    margin-left: 70%;
+    margin-right: 2vh;
+    margin-top: 5vh;
+    border-radius: 5vh;
+    position: absolute;
+    font-size: clamp(12px, 3vw, 20px);
+}
+
+#content4{
+    color: #000B32;
+    position: absolute;
+    margin-top: 40vh;
 }
 
 .lightHeader {
     color: #8ceaff;
-    font-weight: 400;
+    font-size: clamp(12px, 3vw, 20px);
+}
+
+.lightBody {
+    color: #8ceaff;
+    font-size: clamp(12px, 3vw, 20px);
 }
 
 .footer {
