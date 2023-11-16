@@ -92,7 +92,7 @@ ul {
     border-top-right-radius: 5vh;
     border-bottom-right-radius: 13vh;
     border-bottom-left-radius: 5vh;
-    margin-top: 20vh;
+    margin-top: 5vh;
     margin-left: 2vh;
     position: relative;
 }
@@ -100,6 +100,11 @@ ul {
 #img1{
     max-width: 20vh;
     position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
 }
 
 
@@ -121,11 +126,14 @@ ul {
 }
 
 #content3img{
-    max-width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
     margin-top: 8vh;
     margin-left: 25vw;
     border-radius: 2vh;
-    size-adjust: fit-content;
+
     position: absolute;
 }
 
@@ -145,6 +153,29 @@ ul {
     color: #000B32;
     position: absolute;
     margin-top: 40vh;
+    margin-left: 35%;
+    max-width: 40%;
+}
+
+.content4img{
+    max-width: 30vh;
+    max-height: 30vw;
+    aspect-ratio: 1/1;
+    margin-top: 40vh;
+    margin-left: 2vh;
+    border-radius: 2vh;
+    size-adjust: fit-content;
+    position: absolute;
+    border-radius: 100%;
+    border: 0.4vh solid #000B32;
+}
+
+.content5img{
+    max-width: 25vw;
+    margin-top: 45vh;
+    margin-right: 1vh;
+    float: right;
+    size-adjust: fit-content;
 }
 
 .lightHeader {
@@ -158,9 +189,38 @@ ul {
 }
 
 .footer {
-    background-color: #f0f0f0;
-    padding: 20px;
-    position: fixed;
-    bottom: 0;
+    background-color: #000B32;
+    position: absolute;
+    margin-top: 80vh;
     width: 100%;
+}
+
+#footleft {
+    margin-left: 1vh;
+    color: whitesmoke;
+}
+
+#footleftp {
+    margin-left: 1vh;
+    color: whitesmoke;
+    max-width: 30vw;
+    text-size-adjust: fit-content;
+    font-size: small;
+}
+
+#footright {
+    color: whitesmoke;
+    margin-right: 1vh;
+    float: right;
+    margin-top: -15vh;
+}
+
+#footrightp {
+    color: whitesmoke;
+    margin-right: 1vh;
+    float: right;
+    margin-top: -10vh;
+    max-width: 30vw;
+    text-size-adjust: fit-content;
+    font-size: small;
 }
