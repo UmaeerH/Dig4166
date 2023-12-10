@@ -67,6 +67,10 @@ body{
     font-size:2rem;
     font-weight:400;
     line-height:1.4;
+    background-image: url("../Images/background.png");
+    background-repeat: repeat;
+    background-position: top left;
+    background-size: 50%;
   }
   
   section{
@@ -104,13 +108,75 @@ body{
 .topTrim{
     background-color: #001251;
     max-height: 15rem;
-    position:
-
+    position: relative;
+    min-width: 100%;
 }
+
+.logoImage{
+    max-height: 15rem;
+    max-width: 15rem;
+    position: relative;
+    margin-top: -7rem;
+    aspect-ratio: 1/0.8;
+    left: 1rem;
+}
+
+.titleText{
+    color: whitesmoke;
+    font-weight: bolder;
+    position: relative;
+    left: 20rem;
+    font-size: clamp(2rem, 6vw, 4rem);
+    align-self: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.nav1 {
+    margin-top: 0rem;
+    font-size: large;
+    position: absolute;
+    text-decoration: none;
+    list-style-type: none;
+    min-width: 100%;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    list-style-type: none;
+}
+li {
+    float: left;
+    margin: 0 10px;
+}
+li a:hover {
+    background-color: #000B32;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #001251;
+    display: flex;
+    list-style: none;
+}
+
+
 
 /* Home Page */
 
+#homeContent1{
+    display:block;
+}
 
+#img1{
+    display: contents;
+}
 
 
 
@@ -163,7 +229,9 @@ body{
 	:root{
 		font-size:9px;
 	}
-	/* Insert CSS */
+	.nav1{
+        display: none;
+    }
 }
 
 /* Smartphones */
@@ -172,5 +240,15 @@ body{
 		font-size:7px;
 		--content-padding:1rem;
 	}
-	/* Insert CSS */
+	.logoImage{
+        display: none;
+    }
+    .titleText{
+        align-self:self-start;
+        left: 5rem;
+        font-size: clamp(4rem, 6vw, 8rem);
+    }
+    .topTrim{
+        height: 30rem;
+    }
 }
