@@ -179,15 +179,7 @@ ul {
 /* Home Page */
 
 #homeContent1{
-    display:block;
-    margin-top: 10rem;
-}
-
-#img1{
-    display: contents;
-}
-
-#homeContent1{
+  display:block;
   background: linear-gradient(107deg, #001251 48%, #0129B8 100%);
   margin: 5rem;
   margin-top: 10rem;
@@ -197,10 +189,19 @@ ul {
   border-top-right-radius: 5vh;
   border-bottom-right-radius: 13vh;
   border-bottom-left-radius: 5vh;
+  max-height: 80%;
 }
 
 
-
+#img1{
+    position: absolute;
+    object-fit: contain;
+    margin-left: -20dvh;
+    padding-right: 2rem;
+    border-top-left-radius: 5vh;
+    border-bottom-left-radius: 5vh;
+    max-width: 20dvh;
+}
 
 
 
