@@ -168,6 +168,14 @@ ul {
 
 
 
+.lightText {
+  color: #8ceaff;
+}
+
+.darkText {
+  color:#001251;
+}
+
 /* Home Page */
 
 #homeContent1{
@@ -179,7 +187,17 @@ ul {
     display: contents;
 }
 
-
+#homeContent1{
+  background: linear-gradient(107deg, #001251 48%, #0129B8 100%);
+  margin: 5rem;
+  margin-top: 10rem;
+  padding: 2rem;
+  padding-left: 20dvh;
+  border-top-left-radius: 5vh;
+  border-top-right-radius: 5vh;
+  border-bottom-right-radius: 13vh;
+  border-bottom-left-radius: 5vh;
+}
 
 
 
