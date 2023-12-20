@@ -215,6 +215,7 @@ ul {
   height: 20%;
   background-color: #000B32;
   color: white;
+  z-index: 1;
 }
 
 
