@@ -141,6 +141,12 @@ body{
     min-width: 100%;
 }
 
+.nav2 {
+    width:100%;
+    float:left;
+    display: none;
+}
+
 li a {
     display: block;
     color: white;
