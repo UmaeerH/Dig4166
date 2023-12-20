@@ -142,26 +142,31 @@ body{
 }
 
 .nav2 {
-    overflow: hidden;
-    background-color: #333;
-    position: relative;
-}
-.nav2 #myLinks {
-  display: none;
+  min-width: 100%;
 }
 
-.nav2 a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
+.nav2 a {
+  background-color: #001251; 
+  color: #8ceaff; 
+  display: none;
+  padding: 12px; 
+  text-decoration: none; 
+}
+
+.nav2 a:hover {
+  background-color: #000B32; /* Dark grey background on mouse-over */
+}
+
+.nav2 a.active {
+  background-color: #000B32; /* Add a green color to the "active/current" link */
+  font-weight: bolder;
+  text-decoration: underline;
 }
 
 .active {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #000B32; 
 }
+
 
 li a {
     display: block;
@@ -188,14 +193,18 @@ ul {
     list-style: none;
 }
 
-
-
 .lightText {
   color: #8ceaff;
 }
 
 .darkText {
   color:#001251;
+}
+
+.container img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /* Home Page */
@@ -215,7 +224,7 @@ ul {
 }
 
 
-#img1{
+#homeImg1{
     position: absolute;
     object-fit: contain;
     margin-left: -20dvh;
@@ -225,16 +234,39 @@ ul {
     max-width: 20dvh;
 }
 
+#homeContent2{
+  color: #000B32;
+  text-align: left;
+  max-width: 30rem;
+  margin-left: 2rem;
+  margin-top: 7rem;
+  border-radius: 5rem;
+  position: relative;
 
+}
 
+#homeImg2{
+    float: right;
+    max-width: 50%;
+    padding: 2rem;
+    right: 2rem;
+    margin-top: -25rem;
+    position: relative;
+}
 
+#homeContent3{
+    color: #000B32;
+    max-width: 100%;
+    text-align: center;
+    top: 5rem;
+    padding: 5rem;
+    padding-top: 10rem;
+    margin-top: 5rem;
+}
 
-
-
-
-
-/* Hovers */
-
+homeContent4{
+  
+}
 
 
 
@@ -272,8 +304,14 @@ ul {
 		font-size:9px;
 	}
 	.nav1{
-        display: none;
+      display: none;
     }
+  .nav2{
+      display:block;
+  }
+  .nav2 a{
+      display:block;
+  }
 }
 
 /* Smartphones */
@@ -287,7 +325,11 @@ ul {
     }
     .titleText{
         align-self:self-start;
-        left: 5rem;
+        width:80%;
+        left: 0;
+        top: 4rem;
+        margin-left: auto;
+        margin-right: auto;
         font-size: clamp(4rem, 6vw, 8rem);
     }
     .topTrim{
