@@ -39,6 +39,7 @@ a:active,a:focus{
 } 
 
 
+
 /* Variables */
 :root{
   
@@ -71,6 +72,8 @@ body{
     background-repeat: repeat;
     background-position: top left;
     background-size: 50%;
+    max-width: 100%;
+    overflow-x: hidden;
   }
   
   section{
@@ -102,6 +105,10 @@ body{
     font-weight:700;
   }
 /* SPECIFICS */
+
+.element {
+  overflow-x: hidden;
+}
 
 /* Universal */
 
@@ -352,6 +359,18 @@ ul {
 }
 
 /* Biography Page */
+
+#bioHeader1{
+  text-align: center;
+  margin-top: 10rem;
+}
+
+#bioImg1{
+  max-width: 100%;
+  padding: 5rem;
+  margin-top: -3rem;
+  border-radius: 100px;
+}
 
 
 
