@@ -360,17 +360,104 @@ ul {
 
 /* Biography Page */
 
-#bioHeader1{
+#bioContent1{
   text-align: center;
   margin-top: 10rem;
+}
+
+#bioContent1body{
+  padding: 2rem;
+  padding-top: 0rem;
 }
 
 #bioImg1{
   max-width: 100%;
   padding: 5rem;
-  margin-top: -3rem;
+  margin-top: -8rem;
   border-radius: 100px;
 }
+
+#bioContent2{
+  background-color: #000B32;
+  padding: 2rem;
+  margin: 5rem;
+  margin-top: -2rem;
+  border-radius: 4rem;
+  border-bottom-right-radius: 10rem;
+}
+
+#bioContent2head{
+  text-align: center;
+  font-weight: bold;
+}
+
+#bioContent2_1{
+  max-width: 45%;
+  padding: 2rem;
+  padding-top: 0rem;
+}
+
+#bioContent2subHead1{
+  font-weight: 400;
+}
+
+#bioContent2subBody1{
+  font-size: 80%;
+}
+
+
+#bioContent2_2{
+  float: right;
+  padding: 2rem;
+  padding-left: 0;
+  padding-right: 0;
+  margin-top: -23rem;
+  margin-right: 5rem;
+  max-width: 45%;
+  text-align: center;
+}
+
+#bioContent2subHead2{
+  float: right;
+  margin-right: 5rem;
+}
+
+#bioContent2subBody2{
+  float: right;
+  font-size: 80%;
+}
+
+#bioContent2_3{
+  color: #A7C0FF;
+  text-align: center;
+}
+
+#bioContent2subHead3{
+  margin: auto;
+  width: 50%;
+  padding: 2rem;
+}
+
+#bioContent2subBody3{
+  font-size: 80%;
+  width: 70%;
+  margin: auto;
+  margin-top: -1rem;
+  margin-bottom: 2rem;
+}
+
+#bioContent2subBody3_2{
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 80%;
+}
+
+#bioContent3{
+  background-color: goldenrod;
+  margin-bottom: 35rem;  /* Temp margin */
+}
+
 
 
 
@@ -381,7 +468,9 @@ ul {
 	:root{
 		--content-padding:4rem;
 	}
-	/* Insert CSS */
+	#bioContent2_2{
+    margin-top: -20rem;
+  }
 }
 
 /* Old desktop or large scaled UI */
@@ -389,7 +478,9 @@ ul {
 	:root{
 		font-size:8px;
 	}
-	/* Insert CSS */
+#homeImg1{
+  margin-top: -2rem;
+  max-width: 20dvh}
 }
 
 /* Tablet landscape */
@@ -416,6 +507,10 @@ ul {
   .nav2 a{
       display:block;
   }
+  #homeContent5{
+    margin-top: 35rem;
+  }
+
 }
 
 /* Smartphones */
