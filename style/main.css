@@ -378,7 +378,7 @@ ul {
 }
 
 #bioContent2{
-  background-color: #000B32;
+  background: linear-gradient(291.89deg, #000B32 42.09%, #011867 101.37%);
   padding: 2rem;
   margin: 5rem;
   margin-top: -2rem;
@@ -453,11 +453,57 @@ ul {
   font-size: 80%;
 }
 
-#bioContent3{
-  background-color: goldenrod;
+#bioContent3wrap{
   margin-bottom: 35rem;  /* Temp margin */
 }
 
+#bioContent3_1{
+  background: linear-gradient(360deg, #000B32 3.44%, #011867 104.19%);
+  margin: 5rem;
+  margin-left: 2rem;
+  padding: 2rem;
+  border-radius: 4rem;
+  border-bottom-right-radius: 13rem;
+  max-width: 45%;
+  position: absolute;
+}
+
+#bioContent3_2{
+  background: linear-gradient(360deg, #000B32 3.44%, #011867 104.19%);
+  margin: 5rem;
+  margin-right: 2rem;
+  padding: 2rem;
+  border-radius: 4rem;
+  border-bottom-left-radius: 13rem;
+  max-width: 45%;
+  float: right;
+}
+
+.bioContent3head{
+  text-align: center;
+}
+
+.bioContent3body{
+  font-size: 70%;
+  text-align: center;
+}
+
+#bioContent4{
+  background: linear-gradient(360deg, #000B32 3.44%, #011867 104.19%);
+  margin: 5rem;
+  margin-top: 50rem;
+  margin-bottom: 30rem; 
+  padding: 4rem;
+  padding-bottom: 1rem;
+  padding-top: 2rem;
+  text-align: center;
+  font-size: 80%;
+  border-radius: 5rem;
+  border-top-left-radius: 15rem;
+  border-top-right-radius: 15rem;
+}
+
+/* Contributions Page */
 
 
 
