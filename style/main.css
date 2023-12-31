@@ -726,6 +726,131 @@ ul {
   font-style: italic;
 }
 
+/* Contributions Page */
+
+#refMainBody{
+  background: linear-gradient(180deg, #000B32 0%, #020E5B 100%);
+  padding: 2rem;
+  padding-bottom: 200rem;
+  margin: 3rem;
+  margin-top: 10rem;
+  margin-bottom: 30rem;
+  border-radius: 5rem;
+}
+
+#refHead{
+  text-align: center;
+  font-weight: bold;
+}
+
+#refContent1{
+  text-align: center;
+  margin: 3rem;
+  margin-bottom: 5rem;
+}
+
+#refContent1head{
+  font-weight: bold;
+}
+
+.refContent1body{
+  font-size: 80%;
+  margin-top: -1rem;
+}
+
+#refContent2{
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+
+#refContent2head{
+  font-weight: bold;
+}
+
+#refContent3_1{
+  margin-bottom: 2rem;
+}
+
+.refContent3sharedimg{
+  padding: 2rem;
+  width: 100%;
+  border-radius: 5rem;
+}
+
+#refContent3_1img{
+  width: 70%;
+  float: left;
+}
+
+#refContent3_1body{
+  font-size: 80%;
+  padding: 2rem;
+  padding-top: 5rem;
+}
+
+#refContent3_2{
+  width: 30%;  
+  float: left
+}
+
+#refContent3_2img{
+  margin-bottom: -1rem;
+}
+
+#refContent3_2body{
+  text-align: center;
+  font-size: 90%;
+
+}
+
+#refContent3_3{
+  float: left;
+  width: 50%;
+  margin-top: -5rem;
+}
+
+#refContent3_3img{
+  margin-bottom: -1rem;
+  margin-top: -3rem;
+}
+
+#refContent3_3body{
+  text-align: center;
+  font-size: 90%;
+}
+
+#refContent3_4{
+  float: left;
+  width: 50%
+}
+
+#refContent3_4img{
+  width: 90%;
+  margin-left: 5%;
+}
+
+#refContent3_4body{
+  text-align: center;
+}
+
+#refContent3_5{
+  float: left;
+  width: 70%;
+  max-width: 60rem;
+  margin-left: 30%;
+}
+
+#refContent3_5img{
+  width: 100%;
+  margin-bottom: -2rem;
+}
+
+#refContent3_5body{
+  text-align: center;
+}
+
+
 
 /* Media queries */
 
@@ -767,6 +892,10 @@ ul {
   #conContent4{
     padding-bottom: 25rem;
   }
+  #refMainBody{
+    padding-bottom: 150rem;
+  }
+
 }
 
 /* Tablet portrait */
@@ -789,6 +918,9 @@ ul {
   #conContent1_4head{
     margin-bottom: 5rem;
   }
+  #refMainBody{
+    padding-bottom: 135rem;
+  }
 }
 
 /* Smartphones */
@@ -802,8 +934,9 @@ ul {
     }
   .titleText{
     align-self:self-start;
-    width:80%;
-    left: 0;
+    width:100%;
+    text-align: center;
+    left: 0rem;
     top: 4rem;
     margin-left: auto;
     margin-right: auto;
@@ -811,5 +944,11 @@ ul {
     }
   .topTrim{
     height: 30rem;
+  }
+  #refMainBody{
+    padding-bottom: 100rem;
+  }
+  #refContent3_5{
+    width: 50%;
   }
 }
